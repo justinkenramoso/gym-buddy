@@ -12,6 +12,9 @@
 
 .header {
     padding: 0 100px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
@@ -55,7 +58,63 @@
 }
 
 .hero {
-    min-height: 300px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    flex-grow: 1;
+}
+
+.hero div {
+    flex-basis: 100%;
+}
+
+.headline {
+    font-size: 36px;
+    font-weight: 100;
+    color: #f9faf8;
+    margin-bottom: 18px;
+}
+
+.headline-span {
+    font-weight: 600;
+}
+
+.subheadline {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 18px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+}
+
+.call-to-action:hover {
+    cursor: pointer;
+    background-color: #e5e7eb;
+    color: #3882f6;
+    transition-duration: 0.4s;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym-rat {
+    width: 300px;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .header,
