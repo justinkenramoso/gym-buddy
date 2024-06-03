@@ -189,3 +189,38 @@
 .commentor {
     align-self: flex-end;
 }
+
+.action {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card {
+    background-color: #3882f6;
+    border-radius: 10px;
+    min-width: 800px;
+    padding: 50px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.action-right button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+
+.action-right button:hover, 
+.action-right button:active {
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
