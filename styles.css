@@ -122,6 +122,49 @@
     background-color: #1f2937;
 }
 
+.info {
+    min-height: 300px;
+    margin-bottom: 100px;
+}
+
+.info-heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    gap: 24px;
+    text-align: center;
+    color: #1f2937;
+    align-items: baseline;
+}
+
+.card {
+    flex-basis: 100%;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    border: 4px solid #1f2937;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
 .testimonials {
     background-color: #e5e7eb;
 }
