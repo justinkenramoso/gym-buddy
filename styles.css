@@ -10,10 +10,15 @@
     flex-direction: column;
 }
 
+.header {
+    padding: 0 100px;
+}
+
 .nav {
     min-height: 64px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 18px;
 }
 
@@ -24,6 +29,24 @@
     gap: 18px;
     font-size: 24px;
     color: #f9faf8;
+}
+
+.nav-right {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.nav-right ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 32px;
+}
+
+.nav-right ul li a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 .logo {
